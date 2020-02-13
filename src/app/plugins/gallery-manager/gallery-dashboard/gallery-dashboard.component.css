@@ -1,0 +1,44 @@
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #3E3E3E;
+  padding-bottom: 18px;
+}
+
+.btn-control {
+  height: 90px;
+  background: none;
+  border: 1px solid #dadce0;
+  filter: invert(24%) sepia(8%) saturate(378%) hue-rotate(163deg) brightness(94%) contrast(92%);
+  margin: 0 12px;
+  padding: 10px;
+}
+
+.searchbox {
+  display: flex;
+  align-items: center;
+}
+
+.category-filter,
+.text-filter {
+  height: 40px;
+}
+
+.category-filter > select,
+.text-filter > input {
+  height: 100%;
+}
+
+.category-filter > select {
+  width: 200px;
+  background: rgba(255, 255, 255, 0.38);
+  padding: 0 10px;
+}
+
+.text-filter > input {
+  padding: 0 10px;
+}
+
+.searchbox > :last-child {
+  margin-left: 30px;
+}

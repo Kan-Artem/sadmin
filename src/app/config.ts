@@ -23,5 +23,10 @@ export const plugins = [
     name: 'rooms-manager',
     title: 'Помещения',
     path: 'rooms',
-  }
+  },
+  {
+    name: 'gallery-manager',
+    title: 'Галерея',
+    path: 'gallery',
+  },
 ];

@@ -41,7 +41,13 @@ const routes: Routes = [
         loadChildren: () =>
           import('../plugins/rooms-manager/rooms-manager.module')
             .then(mod => mod.RoomsManagerModule),
-      }
+      },
+      {
+        path: 'gallery',
+        loadChildren: () =>
+          import('../plugins/gallery-manager/gallery-manager.module')
+            .then(mod => mod.GalleryManagerModule),
+      },
     ]
   }
 ];
